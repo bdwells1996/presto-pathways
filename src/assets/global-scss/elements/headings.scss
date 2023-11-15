@@ -1,0 +1,33 @@
+@import "src/assets/scss/settings/global.scss";
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $font--title;
+  font-weight: $weight--regular;
+}
+
+h1 {
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 42px;
+
+  @media (max-width: $breakpoint-mobile) {
+    font-size: 32px;
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+    font-size: 38px;
+  }
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}

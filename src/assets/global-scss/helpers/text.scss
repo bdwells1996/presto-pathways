@@ -1,0 +1,25 @@
+@import 'src/assets/scss/settings/global.scss';
+
+// Font weights
+
+.u-weight--regular{
+    font-weight: $weight--regular;
+}
+
+.u-weight--semibold{
+    font-weight: $weight--semibold;
+}
+
+.u-weight--bold{
+    font-weight: $weight--bold;
+}
+
+// Colours
+
+.u-color--primary{
+    color: $color--primary;
+}
+
+.u-color--secondary{
+    color: $color--secondary;
+}
