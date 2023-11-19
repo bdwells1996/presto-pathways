@@ -1,0 +1,27 @@
+@import "../../assets/global-scss/global.scss";
+
+.c-testimonials {
+  height: 100vh;
+  background-image: url("../../assets/images/wavy-background.svg");
+  background-size: cover;
+  margin-top: -70px;
+  padding: 70px 0;
+
+  @media (min-width: $breakpoint-really-wide) {
+    margin-top: -90px;
+    padding: 90px 0;
+  }
+
+  &__inner {
+    .swiper {
+      .swiper-wrapper {
+        -webkit-transition-timing-function: linear !important;
+        -o-transition-timing-function: linear !important;
+        transition-timing-function: linear !important;
+        .swiper-slide {
+          width: 300px;
+        }
+      }
+    }
+  }
+}

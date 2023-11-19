@@ -1,0 +1,18 @@
+@import "../../assets/global-scss/global.scss";
+
+.c-featured-trips {
+  height: 100vh;
+  background-color: $color--secondary;
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  &__inner {
+    &__heading {
+      font-family: $font--title;
+      font-weight: $weight--regular;
+      font-size: 67px;
+      color: $color--cream;
+      margin-bottom: 26px;
+    }
+  }
+}
